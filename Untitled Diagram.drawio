@@ -1,9 +1,155 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="Page-1" id="T1KTqtPa_Ej-0mbKCzTZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1354" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-1" value="Global Server&lt;div&gt;(Model Aggregation)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.154;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-frsiu5Ta0_Rzf8Cy9Ab-1" target="-frsiu5Ta0_Rzf8Cy9Ab-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+            <mxPoint x="130" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-18" value="Global Model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-frsiu5Ta0_Rzf8Cy9Ab-2">
+          <mxGeometry x="-0.1945" y="-2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.852;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-frsiu5Ta0_Rzf8Cy9Ab-1" target="-frsiu5Ta0_Rzf8Cy9Ab-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="131" as="sourcePoint" />
+            <mxPoint x="700" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-16" value="Global Model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-frsiu5Ta0_Rzf8Cy9Ab-4">
+          <mxGeometry x="-0.3211" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-5" value="Hospital 1&lt;div&gt;(Local Training)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-6" value="Hospital 2&lt;div&gt;(Local Training)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-7" value="Hospital 3&lt;div&gt;(Local Training)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-frsiu5Ta0_Rzf8Cy9Ab-11" target="-frsiu5Ta0_Rzf8Cy9Ab-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-11" value="Patient Data&lt;div&gt;(Stays Local)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-frsiu5Ta0_Rzf8Cy9Ab-12" target="-frsiu5Ta0_Rzf8Cy9Ab-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-12" value="Patient Data&lt;div&gt;(Stays Local)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-13" value="Patient Data&lt;div&gt;(Stays Local)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="640" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-frsiu5Ta0_Rzf8Cy9Ab-5" target="-frsiu5Ta0_Rzf8Cy9Ab-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="330" as="sourcePoint" />
+            <mxPoint x="550" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-15" value="Local Training" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-frsiu5Ta0_Rzf8Cy9Ab-14">
+          <mxGeometry x="-0.3753" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-19" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-frsiu5Ta0_Rzf8Cy9Ab-1" target="-frsiu5Ta0_Rzf8Cy9Ab-6">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="350" y="110" as="sourcePoint" />
+            <mxPoint x="450" y="110" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-20" value="Global Model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-frsiu5Ta0_Rzf8Cy9Ab-19">
+          <mxGeometry x="-0.0485" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-21" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-frsiu5Ta0_Rzf8Cy9Ab-6" target="-frsiu5Ta0_Rzf8Cy9Ab-12">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="340" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-23" value="Local Training" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-frsiu5Ta0_Rzf8Cy9Ab-21">
+          <mxGeometry x="-0.2361" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-22" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-frsiu5Ta0_Rzf8Cy9Ab-7" target="-frsiu5Ta0_Rzf8Cy9Ab-13">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="650" y="310" as="sourcePoint" />
+            <mxPoint x="750" y="310" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-24" value="Local Training" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-frsiu5Ta0_Rzf8Cy9Ab-22">
+          <mxGeometry x="-0.4028" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-25" value="Diagnosis Module" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FF66FF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-27" value="Recommendation Module" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#FF66FF;" vertex="1" parent="1">
+          <mxGeometry x="340" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-29" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-frsiu5Ta0_Rzf8Cy9Ab-7" target="-frsiu5Ta0_Rzf8Cy9Ab-1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="450" y="170" as="sourcePoint" />
+            <mxPoint x="400" y="130" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-30" value="Model Updates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-frsiu5Ta0_Rzf8Cy9Ab-29">
+          <mxGeometry x="-0.025" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-31" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-frsiu5Ta0_Rzf8Cy9Ab-6" target="-frsiu5Ta0_Rzf8Cy9Ab-1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="260" y="230" as="sourcePoint" />
+            <mxPoint x="360" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="230" />
+              <mxPoint x="350" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-32" value="Model Updates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-frsiu5Ta0_Rzf8Cy9Ab-31">
+          <mxGeometry x="0.1727" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-33" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-frsiu5Ta0_Rzf8Cy9Ab-5" target="-frsiu5Ta0_Rzf8Cy9Ab-1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="170" y="250" as="sourcePoint" />
+            <mxPoint x="270" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-34" value="Model Updates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-frsiu5Ta0_Rzf8Cy9Ab-33">
+          <mxGeometry x="-0.0006" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-frsiu5Ta0_Rzf8Cy9Ab-35" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Federated Learning Architecture for Healthcare Recommender System&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-10" width="710" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
