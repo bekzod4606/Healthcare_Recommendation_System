@@ -112,8 +112,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or suggestions, feel free to reach out:
 
-- **GitHub**: [bekzod4606](https://github.com/bekzod4606)
-- **Email**: [youremail@example.com](mailto:bdmbzd99m27z259p@studenti.unime.it)
+- **GitHub**: [my Github account](https://github.com/bekzod4606)
+- **Email**: [my email](mailto:bdmbzd99m27z259p@studenti.unime.it)
 
 ---
 
